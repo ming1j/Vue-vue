@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="nav-bar">
   <div class="nav-bar-wrap">
-    <a href="/"><img src="./cnodejs_light.svg" alt="vue" class="logo" width="120" height="28"></a>
+   <router-link to="/home" class="brand"><img src="static/vue.png" alt="vue" class="logo">Vue.js</router-link>
     <div class="info" @click="changeAboutMeShow">
       <i class="iconfont icon-about"></i>
     </div>
@@ -115,6 +115,19 @@ export default {
     }
   }
   .nav-bar-wrap {
+    .brand {
+      display: flex;
+      height: 50px;
+      width: 50px;
+      color: #fff;
+      text-decoration: none;
+      line-height: 50px;
+      font-size: 20px;
+      .logo{
+        height: 50px;
+        width: 50px;
+      }
+    }
     .info, .notification, .user {
     position: absolute;
     top: 0;

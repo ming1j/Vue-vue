@@ -5,7 +5,7 @@
       <h2 class="title">关于</h2>
       <div class="intro">
         <h3>前言</h3>
-        <p>感谢<a href="https://cnodejs.org/" target="_blank">CNode中文社区</a>提供的API</p>
+        <p>感谢<a href="https://www.vue-js.com/" target="_blank">Vue.Js中文社区</a>提供的API</p>
       </div>
       <div class="tech-stack">
         <h3>技术栈</h3>
